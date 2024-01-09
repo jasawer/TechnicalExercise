@@ -3,6 +3,7 @@
 
 
 ## Deploy
+- Locate on solution folder
 - Run `docker build --pull -t <docker image name> .` in the CLI to build a docker image
 - Make sure you have set Docker to run Windows containers
 - Run `docker run --rm -it -p 8000:80 <docker image name>` in the CLI to run the docker container
